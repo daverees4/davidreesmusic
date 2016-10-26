@@ -27,7 +27,7 @@
 		$data['error'] = 'The message field is required!';
 	}else{
 		
-		$formcontent="From: $name\nSubject: DR Music Site Enquiry\nEmail: $email\nMessage: $message";
+		$formcontent="From: $name\nEmail: $email\nMessage: $message";
 		
 		
 		//Place your Email Here
@@ -35,7 +35,7 @@
 		
 		$mailheader = "From: $email \r\n";
 		
-		if( mail($recipient, $name, $formcontent, $mailheader) == false ){
+		if( mail($recipient, "DR Music Contact Form", $formcontent, $mailheader) == false ){
 			$data['error'] = 'Sorry, an error occured!';
 		}else{
 			$data['error'] = false;
