@@ -1069,6 +1069,10 @@ body.loaded #preloader{
 		padding:70px;
 		padding-top:0;
 	}
+	.intro-text {
+  	padding:0px;
+  	margin: 0 16px;  	
+	}
 }
 @media(max-width:400px){
 	.section{
