@@ -23,13 +23,11 @@
 		$data['error'] = 'Please enter your name.';
 	}else if(filter_var($email, FILTER_VALIDATE_EMAIL) == false){
 		$data['error'] = 'Please enter a valid email address.';
-	}else if( empty($subject) ){
-		$data['error'] = 'Please enter your subject.';
 	}else if( empty($message) ){
 		$data['error'] = 'The message field is required!';
 	}else{
 		
-		$formcontent="From: $name\nSubject: $subject\nEmail: $email\nMessage: $message";
+		$formcontent="From: $name\nSubject: DR Music Site Enquiry\nEmail: $email\nMessage: $message";
 		
 		
 		//Place your Email Here
