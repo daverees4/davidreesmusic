@@ -227,9 +227,9 @@ body.border-dark .main-content:after{
 	background:#202020;
 }
 .intro-text{
-	padding:15px;
+
 	text-align:left;
-	padding-left:16.66%;
+	padding: 0 16.66%;
 }
 .intro-text > h1{
 	margin:0;
