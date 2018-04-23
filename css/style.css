@@ -193,8 +193,6 @@ body.border-dark .menu-items > li > a:hover{
 	font-weight:400;
 	margin:0;
 	letter-spacing:1px;
-	font-style:italic;
-	font-family:Lora, serif;
 }
 .section-header > h2 > strong{
 	font-style:normal;
